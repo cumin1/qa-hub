@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 问答交流社区
 
-## Getting Started
+这是一个基于 React 和 Next.js 构建的问答交流社区项目，用户可以在这里发布问题、查看问题列表，并进行用户登录和注册。
 
-First, run the development server:
+## 功能特性
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 用户注册和登录
+- 发布问题
+- 查看问题列表
+- 问题详情查看
+- 用户会话管理
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 技术栈
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **前端框架**: [React](https://reactjs.org/), [Next.js](https://nextjs.org/)
+- **状态管理**: [Zustand](https://github.com/pmndrs/zustand)
+- **UI 组件库**: [Material-UI](https://mui.com/)
+- **路由管理**: [Next.js 路由](https://nextjs.org/docs/routing/introduction)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 安装步骤
 
-## Learn More
+1. **克隆仓库**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/yourusername/qa-hub.git
+   cd qa-hub
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **安装依赖**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   确保你已经安装了 [Node.js](https://nodejs.org/) 和 [npm](https://www.npmjs.com/)，然后运行：
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **运行项目**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm run dev
+   ```
+
+   打开浏览器访问 `http://localhost:3000` 查看项目。
+
+## 使用说明
+
+*可以使用初始用户：10001 密码：123456*
+
+- **注册和登录**: 用户可以通过注册页面创建新账户，或通过登录页面访问已有账户。
+- **发布问题**: 登录后，用户可以通过“发布问题”按钮进入发布页面，填写问题标题并提交。
+- **查看问题**: 在问题列表页面，用户可以点击问题卡片查看问题详情。
+
+## 贡献指南
+
+欢迎对本项目的贡献！如果你有任何建议或发现了问题，请提交 [Issue](https://github.com/yourusername/qa-hub/issues) 或创建 [Pull Request](https://github.com/yourusername/qa-hub/pulls)。
+
+1. Fork 本仓库
+2. 创建你的功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 打开一个 Pull Request
+
+## 许可证
+
+该项目使用 MIT 许可证。详情请参阅 [LICENSE](LICENSE) 文件。
+
+## 联系方式
+
+如果你有任何问题或建议，请通过 [email@example.com](mailto:email@example.com) 联系我。
