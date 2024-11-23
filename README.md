@@ -22,7 +22,7 @@
 1. **克隆仓库**
 
    ```bash
-   git clone https://github.com/yourusername/qa-hub.git
+   git clone https://github.com/cumin1/qa-hub.git
    cd qa-hub
    ```
 
